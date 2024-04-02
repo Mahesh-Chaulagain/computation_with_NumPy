@@ -50,3 +50,18 @@
 -> elements along each axis: print(mystery_array.shape[0],mystery_array.shape[1],mystery_array.shape[-1])
 -> retrive all the elements on the third axis that are at postion 2 on the first axis and position 1 on the second axis:
    mystery_array[2,1,:]
+
+# matrix multiplication
+-> np.matmul(array1,array2) pr array1 @ array2
+
+# scipy library
+-> to fetch image under datasets do the following
+	from scipy import datasets
+	img = datasets.face()
+-> display it in Matplotlib
+	plt.imshow(img)
+
+# PIL
+-> use PIL library to open image
+	from PIL import Image
+	img = Image.open(img_name)
